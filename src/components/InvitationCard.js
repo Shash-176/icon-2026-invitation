@@ -3,13 +3,17 @@ import "./InvitationCard.css";
 function InvitationCard() {
   return (
     <div className="invitation-card">
+      <div className="invitation-content">
       <p className="invitation-subtitle">
         Department of Data Science and Technology
       </p>
 
-      <h1 className="invitation-title">
+      <h1 className="invitation-title invitation-title--desktop">
         K.J. Somaiya Institute of Management
       </h1>
+      <h1 className="invitation-title invitation-title--mobile">
+  K.J.S.I.M.
+</h1>
 
       <p className="invitation-italic">
         cordially invites you to be a part of
@@ -35,6 +39,7 @@ function InvitationCard() {
       <p className="invitation-footer">
         13th - 14th February 2026
       </p>
+      </div>
     </div>
   );
 }
