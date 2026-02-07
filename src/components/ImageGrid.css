@@ -74,11 +74,18 @@
   .masonry {
     column-count: 1;              /* prevents twin-image effect */
     animation-duration: 90s;      /* slower = less repetition */
-    padding: 12px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .masonry-item {
-    margin-bottom: 24px;          /* more separation */
+    margin-bottom: 12px;          /* more separation */
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
   }
 }
 

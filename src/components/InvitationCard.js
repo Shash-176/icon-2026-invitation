@@ -12,7 +12,7 @@ function InvitationCard() {
         K.J. Somaiya Institute of Management
       </h1>
       <h1 className="invitation-title invitation-title--mobile">
-  K.J.S.I.M.
+  K.J. Somaiya Institute of Management
 </h1>
 
       <p className="invitation-italic">
